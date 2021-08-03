@@ -24,12 +24,12 @@
       }
    ],
    "manifest": "https://raw.githubusercontent.com/VTTAssets/gh-action-release/main/module.json",
-   "download": "https://github.com/VTTAssets/gh-action-release/releases/download/v3.0.1/gh-action-release-v3.0.1.zip",
+   "download": "https://github.com/VTTAssets/gh-action-release/releases/download/v3.3.5/gh-action-release-v3.3.5.zip",
    "styles": [
       "/css/css-fixes.css",
       "/css/journal.css",
       "/css/sheets.css"
    ],
    "socket": true,
-   "version": "3.0.1"
+   "version": "3.3.5"
 }
