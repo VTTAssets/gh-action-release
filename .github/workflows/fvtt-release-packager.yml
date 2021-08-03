@@ -1,0 +1,12 @@
+name: PR Labeler
+on:
+  release:
+    types: [released]
+
+jobs:
+  fvtt-release-packager:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: VTTAssets/fvtt-release-packager
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
