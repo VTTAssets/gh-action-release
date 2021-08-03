@@ -1,0 +1,11 @@
+{
+  "name": "gh-action-release",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/VTTAssets/gh-action-release.git",
+  "author": "Sebastian Will <vttassets@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "git add . && git commit -m \"Updated GitHub action version number\" && git push"
+  }
+}
