@@ -7,6 +7,6 @@ jobs:
   create-release-package:
     runs-on: ubuntu-latest
     steps:
-      - uses: VTTAssets/fvtt-release-packager@v1.0.1
+      - uses: VTTAssets/fvtt-release-packager@v1.0.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
