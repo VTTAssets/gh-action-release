@@ -1,29 +1,35 @@
 {
-  "name": "gh-action-release",
-  "title": "Github Action Release package",
-  "description": "Testing Github actions enhance releases",
-  "author": "Sebastian Will <vttassets@gmail.com>",
-  "version": "to be determined",
-  "dependencies": [
-    {
-      "name": "vtta-core",
-      "version": "2.0.1",
-      "manifest": "https://raw.githubusercontent.com/VTTAssets/vtta-core/main/module.json",
-      "download": "to be determined"
-    }
-  ],
-  "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion": "0.8.8",
-  "esmodules": ["src/index.js"],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
-    }
-  ],
-  "manifest": "https://raw.githubusercontent.com/VTTAssets/vtta-ddb/main/module.json",
-  "download": "to be determined",
-  "styles": ["/css/css-fixes.css", "/css/journal.css", "/css/sheets.css"],
-  "socket": true
+   "name": "gh-action-release",
+   "title": "Github Action Release package",
+   "description": "Testing Github actions enhance releases",
+   "author": "Sebastian Will <vttassets@gmail.com>",
+   "dependencies": [
+      {
+         "name": "vtta-core",
+         "manifest": "https://raw.githubusercontent.com/VTTAssets/vtta-core/main/module.json",
+         "version": "2.0.1",
+         "download": "http://localhost:5000/vtta-core"
+      }
+   ],
+   "minimumCoreVersion": "0.7.9",
+   "compatibleCoreVersion": "0.8.8",
+   "esmodules": [
+      "src/index.js"
+   ],
+   "languages": [
+      {
+         "lang": "en",
+         "name": "English",
+         "path": "lang/en.json"
+      }
+   ],
+   "manifest": "https://raw.githubusercontent.com/VTTAssets/gh-action-release/main/module.json",
+   "download": "https://github.com/VTTAssets/gh-action-release/releases/download/v2.2.4/gh-action-release-v2.2.4.zip",
+   "styles": [
+      "/css/css-fixes.css",
+      "/css/journal.css",
+      "/css/sheets.css"
+   ],
+   "socket": true,
+   "version": "2.2.4"
 }
